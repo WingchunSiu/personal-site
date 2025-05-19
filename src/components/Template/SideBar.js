@@ -12,9 +12,9 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Michael D&apos;Angelo</h2>
+        <h2>Michael Wingchun Siu</h2>
         <p>
-          <a href="mailto:michael@mldangelo.com">michael@mldangelo.com</a>
+          <a href="siuw@usc.edu">siuw at usc dot edu</a>
         </p>
       </header>
     </section>
@@ -22,14 +22,11 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Michael. I am a{' '}
-        <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC
-        alumnus, and the co-founder and CTO of{' '}
-        <a href="https://promptfoo.dev">Promptfoo</a>. Previously, I
-        was VP of Engineering at <a href="https://usesmileid.com">SmileID</a>,
-        co-founder and CTO of <a href="https://arthena.com">Arthena</a>, and
-        co-founded <a href="https://matroid.com">Matroid</a>.
+        Hi, I&apos;m Michael Siu. I am a computer science student at{' '}
+        <a href="https://www.usc.edu">USC</a> passionate about AI, software, and systems.<br />
+        My research interests include Agents, LLM, and reinforcement learning.
       </p>
+
       <ul className="actions">
         <li>
           {!window.location.pathname.includes('/resume') ? (
@@ -48,7 +45,7 @@ const SideBar = () => (
     <section id="footer">
       <ContactIcons />
       <p className="copyright">
-        &copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.
+        &copy; Michael Siu <Link to="/">WingchunSiu.github.io</Link>.
       </p>
     </section>
   </section>
